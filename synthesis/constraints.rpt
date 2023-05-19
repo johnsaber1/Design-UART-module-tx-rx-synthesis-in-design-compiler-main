@@ -1,0 +1,73 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : UART
+Version: K-2015.06
+Date   : Sat Aug 13 16:29:19 2022
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   RX_OUT_P[0]                  1.50          25.14         -23.64  (VIOLATED)
+       PIN :   U0_UART_RX/U26/Y
+                                1.50          25.14         -23.64  (VIOLATED)
+   TX_OUT_V                     1.50          25.13         -23.63  (VIOLATED)
+       PIN :   U0_UART_TX/U3/Y
+                                1.50          25.13         -23.63  (VIOLATED)
+   RX_OUT_P[4]                  1.50          25.13         -23.63  (VIOLATED)
+       PIN :   U0_UART_RX/U20/Y
+                                1.50          25.13         -23.63  (VIOLATED)
+   RX_OUT_P[5]                  1.50          25.13         -23.63  (VIOLATED)
+       PIN :   U0_UART_RX/U16/Y
+                                1.50          25.13         -23.63  (VIOLATED)
+   RX_OUT_P[6]                  1.50          25.13         -23.63  (VIOLATED)
+       PIN :   U0_UART_RX/U22/Y
+                                1.50          25.13         -23.63  (VIOLATED)
+   RX_OUT_P[2]                  1.50          25.12         -23.62  (VIOLATED)
+       PIN :   U0_UART_RX/U24/Y
+                                1.50          25.12         -23.62  (VIOLATED)
+   RX_OUT_P[7]                  1.50          25.12         -23.62  (VIOLATED)
+       PIN :   U0_UART_RX/U18/Y
+                                1.50          25.12         -23.62  (VIOLATED)
+   RX_OUT_P[3]                  1.50          25.12         -23.62  (VIOLATED)
+       PIN :   U0_UART_RX/U12/Y
+                                1.50          25.12         -23.62  (VIOLATED)
+   TX_OUT_S                     1.50          25.00         -23.50  (VIOLATED)
+       PIN :   U0_UART_TX/U0_mux/U4/Y
+                                1.50          25.00         -23.50  (VIOLATED)
+   RX_OUT_V                     1.50          25.00         -23.50  (VIOLATED)
+       PIN :   U0_UART_RX/U10/Y
+                                1.50          25.00         -23.50  (VIOLATED)
+   RX_OUT_P[1]                  1.50          24.98         -23.48  (VIOLATED)
+       PIN :   U0_UART_RX/U14/Y
+                                1.50          24.98         -23.48  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      11               -259.52  
+
+   max_capacitance
+
+                             Required        Actual
+   Net                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   RX_OUT_P[0]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[1]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[2]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[3]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[4]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[5]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[6]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_P[7]                  3.69          50.03         -46.34  (VIOLATED)
+   RX_OUT_V                     3.69          50.03         -46.34  (VIOLATED)
+   TX_OUT_S                     3.69          50.03         -46.34  (VIOLATED)
+   TX_OUT_V                     3.69          50.03         -46.34  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      11               -509.72  
+
+1

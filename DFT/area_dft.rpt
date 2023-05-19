@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : area
+Design : UART
+Version: K-2015.06
+Date   : Sat Aug 13 21:25:55 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/Labs/Ass_Syn_2.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                          243
+Number of nets:                           557
+Number of cells:                          340
+Number of combinational cells:            272
+Number of sequential cells:                52
+Number of macros/black boxes:               0
+Number of buf/inv:                        127
+Number of references:                       9
+
+Combinational area:               2301.625203
+Buf/Inv area:                      935.476490
+Noncombinational area:            1790.937359
+Macro/Black Box area:                0.000000
+Net Interconnect area:          117880.586456
+
+Total cell area:                  4092.562562
+Total area:                     121973.149019
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------
+UART                              4092.5626    100.0    52.9515     0.0000  0.0000  UART
+U0_UART_RX                        2452.2428     59.9   403.6081     0.0000  0.0000  UART_RX_test_1
+U0_UART_RX/U0_data_sampling        463.6198     11.3   315.3556   148.2642  0.0000  data_sampling_test_1
+U0_UART_RX/U0_deserializer         473.0334     11.6   168.2681   304.7653  0.0000  deserializer_test_1
+U0_UART_RX/U0_edge_bit_counter     448.3227     11.0   191.8021   256.5206  0.0000  edge_bit_counter_test_1
+U0_UART_RX/U0_par_chk              154.1477      3.8   115.3166    38.8311  0.0000  par_chk_test_1
+U0_UART_RX/U0_stp_chk               50.5981      1.2    11.7670    38.8311  0.0000  stp_chk_test_1
+U0_UART_RX/U0_strt_chk              63.5418      1.6    30.5942    32.9476  0.0000  strt_chk_test_1
+U0_UART_RX/U0_uart_fsm             395.3712      9.7   285.9381   109.4331  0.0000  uart_rx_fsm_test_1
+U0_UART_TX                        1541.4770     37.7    52.9515     0.0000  0.0000  UART_TX_test_1
+U0_UART_TX/U0_Serializer           611.8840     15.0   236.5167   375.3673  0.0000  Serializer_test_1
+U0_UART_TX/U0_fsm                  275.3478      6.7   135.3205   140.0273  0.0000  uart_tx_fsm_test_1
+U0_UART_TX/U0_mux                   75.3088      1.8    38.8311    36.4777  0.0000  mux_test_1
+U0_UART_TX/U0_parity_calc          525.9849     12.9   216.5128   309.4721  0.0000  parity_calc_test_1
+mux1                                15.2971      0.4    15.2971     0.0000  0.0000  mux2x1_2
+mux2                                15.2971      0.4    15.2971     0.0000  0.0000  mux2x1_1
+mux3                                15.2971      0.4    15.2971     0.0000  0.0000  mux2x1_0
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------
+Total                                                 2301.6252  1790.9374  0.0000
+
+1
